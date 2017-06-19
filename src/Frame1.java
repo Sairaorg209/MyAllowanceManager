@@ -147,7 +147,7 @@ public class Frame1 extends javax.swing.JFrame {
                
             PrintWriter output;
             
-            output = new PrintWriter(new BufferedWriter(new FileWriter("H:\\Programs in lab\\JavaOOP\\MyAllowanceManager\\Allowance.txt", true)));
+            output = new PrintWriter(new BufferedWriter(new FileWriter("C:\\Users\\Admin\\Desktop\\Allowance.txt", true)));
 
             output.println(String.valueOf(sum)+" as of " + today.toString());
             
